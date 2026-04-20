@@ -1,0 +1,8 @@
+print("Amount Calculation Utility")
+print("*************************")
+print("")
+a=int(input("Enter Quantity         : "))
+b=int(input("Enter Rate                : "))
+print("")
+c=(a*b)
+print("Amount                     :",c)
