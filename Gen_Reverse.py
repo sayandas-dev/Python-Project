@@ -1,0 +1,11 @@
+print("Reverse Calculation Utility")
+print("*************************")
+print("")
+a=int(input("Enter Number         : "))
+print("")
+q=int(a/10)
+r=(a%10)
+rn=(r*10)+q
+dif=(a-rn)
+print("Reverse Number      :",rn)
+print("Difference                :",dif)

@@ -1,0 +1,7 @@
+print("Weight Calculation Utility")
+print("************************")
+print("")
+a=int(input("Enter Weight (Gram)      : "))
+print("")
+k=round((a/1000),2)
+print("Kg                                   :",k)

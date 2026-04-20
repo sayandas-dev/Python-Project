@@ -1,0 +1,10 @@
+import math
+print("Circle Calculation Utility")
+print("***********************")
+print("")
+r=int(input("Enter Radius                   :"))
+print("")
+area=round(((22*r*r)/7),2)
+circum=round(((2*22*r)/7),2)
+print("Area                                  :",area)
+print("Circumference                  :",circum)

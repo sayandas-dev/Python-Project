@@ -1,0 +1,8 @@
+print("Subtraction Utility")
+print("*****************")
+print("")
+a=int(input("Enter 1st Number   :  "))
+b=int(input("Enter 2nd Number  :  "))
+print("")
+c=int(a-b)
+print("Subtraction              : ",c)

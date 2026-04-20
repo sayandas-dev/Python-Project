@@ -1,0 +1,7 @@
+print("Thrice Calculation Utility")
+print("************************")
+print("")
+a=int(input("Enter Number   : "))
+print("")
+b=(3*a)
+print("Thrice                :",b)

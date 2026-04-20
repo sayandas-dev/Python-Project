@@ -1,0 +1,7 @@
+print("Temperature calculation Utility")
+print("*****************************")
+print("")
+c=int(input("Celsius                 : "))
+print("")
+f=round(((c*1.8)+32),2)
+print("Fahrenheit           :",f)

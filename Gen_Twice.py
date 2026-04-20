@@ -1,0 +1,7 @@
+print("Twice Calculation Utility")
+print("***********************")
+print("")
+a=int(input("Enter Number     : "))
+print("")
+b=(2*a)
+print("Twice                   :",b)

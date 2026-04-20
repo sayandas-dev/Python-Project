@@ -1,0 +1,13 @@
+import math
+print("Triangle calculation Utility")
+print("*************************")
+print("")
+a=int(input("Enter 1st Base             :"))
+b=int(input("Enter 2nd Base            :"))
+c=int(input("Enter 3rd Base            :"))
+print("")
+peri=(a+b+c)
+s=(peri/2)
+area=round(math.sqrt(s*(s-a)*(s-b)*(s-c)),2)
+print("Area                             :",area)
+print("Perimeter                     :",peri)

@@ -1,0 +1,7 @@
+print("Currency Calculation Utility")
+print("**************************")
+print("")
+a=int(input("Enter Amount (Paisa)       : "))
+print("")
+r=round((a/100),2)
+print("Rupee                                :",r)
